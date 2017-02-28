@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import {TodoService} from "./services/todos.service"
+import { TodoService } from "./services/todos.service"
 
 @Component({
-  moduleId:module.id,
+  moduleId: module.id,
   selector: 'my-app',
   templateUrl: "app.component.html",
-  providers:[TodoService]
+  providers: [TodoService]
 })
-export class AppComponent  { }
-
+export class AppComponent { }
